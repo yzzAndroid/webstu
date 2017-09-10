@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="org.rapidoid:rapidoid-json:2.0.1" type="repository">
+    <properties maven-id="org.rapidoid:rapidoid-json:2.0.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-json-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-beany-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-annotations-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-utils-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-u-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-lambda-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-config-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-log-2.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-activity-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-json-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/rapidoid-json-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

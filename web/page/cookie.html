@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cookie</title>
+    <script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
+    <script>
+
+
+        var setting = {
+            url:"../action/cookie/cookie.do!deleteCookie",
+            type:"post",
+            success: function(msg){
+                alert( msg );
+            }
+
+        };
+        var deleteCookie = function () {
+            $.ajax(setting)
+        };
+
+
+
+    </script>
+</head>
+<body>
+    <form id="cookie" action="../action/cookie/cookie.do!setCookie
+" method="post">
+        姓名:<input type="text" name="name"><br>
+        商品:篮球<input type="checkbox" name="shop" value="篮球">
+            足球<input type="checkbox" name="shop" value="足球">
+            手机<input type="checkbox" name="shop" value="手机">
+        <br>
+        性别:
+            男<input type="radio" name="sex" value="男">
+            女<input type="radio" name="sex" value="女">
+        <input type="submit">
+    </form>
+    <br>
+    <button id="deletecookie" onclick="deleteCookie()">删除cookie</button>
+
+</body>
+</html>

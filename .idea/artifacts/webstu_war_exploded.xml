@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webstu:war exploded">
+    <output-path>$PROJECT_DIR$/../apache/apache-tomcat-7.0.52/apache-tomcat-7.0.52/webapps/webstu</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="webstu/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webstu" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
