@@ -33,7 +33,7 @@
 
     <filter>
         <filter-name>actionfilter</filter-name>
-        <filter-class>com.yzz.java.filter.ActionFilter</filter-class>
+        <filter-class>com.yzz.java.util.ioc.ActionFilter</filter-class>
         <init-param>
             <param-name>sqlit</param-name>
             <param-value>!</param-value>

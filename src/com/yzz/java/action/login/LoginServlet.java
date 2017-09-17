@@ -1,9 +1,9 @@
 package com.yzz.java.action.login;
 
 import com.yzz.java.util.Log;
-import com.yzz.java.util.MD5Utils;
 import com.yzz.java.util.Utils;
 import net.sf.json.JSONObject;
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

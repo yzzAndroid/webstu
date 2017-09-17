@@ -38,6 +38,8 @@ public class AccountDao {
         try {
             DataSource dataSource = new ComboPooledDataSource("yzz");
              connection = dataSource.getConnection();
+             QueryRunner runner = new QueryRunner();
+
             connection.setAutoCommit(false);
             Statement statement = connection.createStatement();
             //查询金额

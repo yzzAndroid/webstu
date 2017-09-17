@@ -1,8 +1,11 @@
 package com.yzz.java.action.cookie;
 
-import com.yzz.java.base.BaseAction;
+import com.yzz.java.bean.Account;
+import com.yzz.java.bean.User;
+import com.yzz.java.util.ioc.BaseAction;
 import com.yzz.java.util.Log;
 import javax.servlet.http.Cookie;
+import java.io.IOException;
 import java.net.URLEncoder;
 import java.util.Map;
 
@@ -38,5 +41,13 @@ public class CookieServlet extends BaseAction {
             resp.addCookie(c);
         }
         resp.getWriter().write("删除成功");
+    }
+
+    public void test(User account){
+        try {
+            resp.getWriter().write(account.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
